@@ -1,0 +1,7 @@
+
+# PATCH http://localhost:3000/movies/2
+# Content-Type: application/json
+
+# {
+#   "plot": "Clownfish's son gets kidnapped. Father sets out to find his son."
+#   }
