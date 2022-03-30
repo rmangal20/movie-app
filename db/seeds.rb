@@ -7,7 +7,7 @@
 # actor = Actor.new({ first_name: "Tom", last_name: "Cruise", known_for: "Mission Impossible" })
 # actor.save
 
-# actor = Actor.new({ first_name: "Jennifer", last_name: "Lawrence", known_for: "The Hunger Games" })
+# actor = Actor.new(first_name: "Jennifer", last_name: "Lawrence", known_for: "The Hunger Games" )
 # actor.save
 
 # movie = Movie.new({ title: "Finding Nemo", year: 2003, plot: "fish searches for his son" })
