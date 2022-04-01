@@ -24,3 +24,45 @@
 #   english: true,
 # )
 # movie.save
+
+genre = Genre.create(
+  name: "thriller",
+)
+
+genre = Genre.create(
+  name: "comedy",
+)
+genre = Genre.create(
+  name: "action",
+)
+genre = Genre.create(
+  name: "drama",
+)
+genre = Genre.create(
+  name: "romance",
+)
+
+moviegenre = MovieGenre.create(
+  movie_id: 3,
+  genre_id: 1,
+)
+
+moviegenre = MovieGenre.create(
+  movie_id: 4,
+  genre_id: 4,
+)
+
+moviegenre = MovieGenre.create(
+  movie_id: 5,
+  genre_id: 3,
+)
+
+moviegenre = MovieGenre.create(
+  movie_id: 3,
+  genre_id: 5,
+)
+
+moviegenre = MovieGenre.create(
+  movie_id: 4,
+  genre_id: 2,
+)
