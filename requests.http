@@ -1,7 +1,30 @@
 
-# PATCH http://localhost:3000/movies/2
-# Content-Type: application/json
+### Users create (signup)
+POST http://localhost:3000/users
+Content-Type: application/json
 
-# {
-#   "plot": "Clownfish's son gets kidnapped. Father sets out to find his son."
-#   }
+{
+  "name": "Jane Smith",
+  "email": "jane@example.com",
+  "password": "password",
+  "password_confirmation": "password",
+  "admin": true
+}
+
+
+### Users index
+GET http://localhost:3000/users
+Content-Type: application/json
+
+
+### Sessions create (login)
+POST http://localhost:3000/sessions
+Content-Type: application/json
+
+{
+  "email": "jane@example.com",
+  "password": "password"
+}
+
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg4NjY0ODd9.-dJFND6uj8ecwOtG6NWF5DGlHgZzVLmu3iDUPSGyZDY
+
